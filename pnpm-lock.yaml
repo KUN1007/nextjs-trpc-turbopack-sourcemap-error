@@ -29,6 +29,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
+      turbo:
+        specifier: 2.2.4-canary.6
+        version: 2.2.4-canary.6
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -393,6 +396,40 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
+  turbo-darwin-64@2.2.4-canary.6:
+    resolution: {integrity: sha512-F/h4q2ksAozc4eJLhd5ihDZhbnanNLRoE0tgIZdo7IsV/Zd+ArONySL6GwZ6Aqt6zh7UwaWJGyMu9ZLH6NrhTQ==}
+    cpu: [x64]
+    os: [darwin]
+
+  turbo-darwin-arm64@2.2.4-canary.6:
+    resolution: {integrity: sha512-IM+Iaq2FeP5epl+AxyfxOqbolX4i9HOzgPUmIGoZhA+UtbzvNxrXRVHVLP8bt8417JF9yrCqsER6VbliuP1gyw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  turbo-linux-64@2.2.4-canary.6:
+    resolution: {integrity: sha512-MnDnFfVU5rnIS/Yzf3Lf/t2J2V6jCmzJSAz9mZNhaLFDCOfOfizqx01CYFnYUbeywOJdbiK9g5AdeuuXm6VBQQ==}
+    cpu: [x64]
+    os: [linux]
+
+  turbo-linux-arm64@2.2.4-canary.6:
+    resolution: {integrity: sha512-XzVnpdQo30jy8IfgX1/7YVpiHirbidqBSi+D0ShVpvHOJRWkxdoZq5ZTrbFw6P+fDIZpUdrVsKlmXh2J6vR5cA==}
+    cpu: [arm64]
+    os: [linux]
+
+  turbo-windows-64@2.2.4-canary.6:
+    resolution: {integrity: sha512-gJTQdz6CRN5vT/LP4GDznVM8zREggOKXoStPaJv7sKlRbhiqoiP3z8bSpp/GTsmx6VaKR9aKeV4SKB6hGsBAZQ==}
+    cpu: [x64]
+    os: [win32]
+
+  turbo-windows-arm64@2.2.4-canary.6:
+    resolution: {integrity: sha512-3YF8n04vVMck7wiy8Orag2lTMCj4RA/8Sdntu+fMHln+sdz0K1Yd9rV+9lZZHE+FDorpuBSciCsowK8fnl4CDQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  turbo@2.2.4-canary.6:
+    resolution: {integrity: sha512-7ZhWMGbCUFH5l7FfzQQV+o/tXKwa5dzuOPlj9eKPbYH7iAaZD9lxlRBr6doiP9mOvTTgT3/1Tm0r996ixAVl8Q==}
+    hasBin: true
+
   typescript@5.6.3:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
@@ -711,6 +748,33 @@ snapshots:
       react: 18.3.1
 
   tslib@2.8.1: {}
+
+  turbo-darwin-64@2.2.4-canary.6:
+    optional: true
+
+  turbo-darwin-arm64@2.2.4-canary.6:
+    optional: true
+
+  turbo-linux-64@2.2.4-canary.6:
+    optional: true
+
+  turbo-linux-arm64@2.2.4-canary.6:
+    optional: true
+
+  turbo-windows-64@2.2.4-canary.6:
+    optional: true
+
+  turbo-windows-arm64@2.2.4-canary.6:
+    optional: true
+
+  turbo@2.2.4-canary.6:
+    optionalDependencies:
+      turbo-darwin-64: 2.2.4-canary.6
+      turbo-darwin-arm64: 2.2.4-canary.6
+      turbo-linux-64: 2.2.4-canary.6
+      turbo-linux-arm64: 2.2.4-canary.6
+      turbo-windows-64: 2.2.4-canary.6
+      turbo-windows-arm64: 2.2.4-canary.6
 
   typescript@5.6.3: {}
 
